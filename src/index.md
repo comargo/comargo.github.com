@@ -2,4 +2,5 @@
 % Cyril Margorin
 My github projects
 ------------------
-* [Sudoku solver](https://github.com/comargo/sudoku-solver)
+* C#
+    * [Sudoku solver](https://github.com/comargo/sudoku-solver)
