@@ -6,7 +6,8 @@ PANDOC_OPTS ?= --toc \
 			   --normalize \
 			   --include-in-header=meta.html \
 			   --include-before-body=header.html \
-			   --include-after-body=footer.html
+			   --include-after-body=footer.html \
+			   --html5
 #			   --highlight-style=cpp 
 
 
