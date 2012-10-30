@@ -21,7 +21,7 @@ htmls: $(outfiles)
 Makefile: markdown.mk
 	touch $@
 
-$(outfiles): Makefile
+$(outfiles): Makefile meta.html header.html footer.html
 
 ../%.html: %.md
 	$(PANDOC) $(PANDOC_OPTS) -s -o $@ $<
